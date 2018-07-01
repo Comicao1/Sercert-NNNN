@@ -104,7 +104,7 @@
 
 
 /datum/job/captain
-	title = "Dienstleiter"
+	title = "Magistrate"
 	supervisors = "CMA and your good will."
 	minimal_player_age = 41
 	economic_modifier = 10
@@ -119,7 +119,7 @@
 
 
 /datum/job/hop
-	title = "Kreisleiter"
+	title = "Overseer"
 	supervisors = "the Magistrate"
 	minimal_player_age = 31
 	economic_modifier = 5
@@ -151,7 +151,7 @@
 	minimal_access = list(access_lawyer, access_heads)
 
 /datum/job/rd
-	title = "Karotechia"
+	title = "Technomancer"
 	supervisors = "the Magistrate"
 	minimal_player_age = 21
 	economic_modifier = 9
@@ -179,7 +179,7 @@
 		H.add_skills(rand(25, 50), rand(25,50), rand(65, 75))
 
 /datum/job/scientist
-	title = "Juinor Karotechia"
+	title = "Tenchotrainee"
 	supervisors = "Technomancer"
 	minimal_player_age = 19
 	economic_modifier = 2
@@ -196,7 +196,7 @@
 
 /datum/job/doctor
 	selection_color = "#633d63"
-	title = "Praktiker"
+	title = "Practitioner"
 	supervisors = "the Overseer"
 	minimal_player_age = 19
 	economic_modifier = 2
@@ -224,7 +224,7 @@
 			access_chemistry, access_virology, access_cmo, access_surgery, access_maint_tunnels)
 
 /datum/job/hos
-	title = "Head Schutzpolizei"
+	title = "Head Peacekeeper"
 	supervisors = "the Magistrate"
 	department_flag = SEC
 	faction = "Station"
@@ -251,7 +251,7 @@
 
 
 /datum/job/officer
-	title = "Schutzpolizei"
+	title = "Peacekeeper"
 	department = "Security"
 	department_flag = SEC
 	faction = "Station"
@@ -391,7 +391,7 @@
 
 /datum/job/cadet
 	selection_color = "#633d63"
-	title = "Juinor Schutzpolizei"
+	title = "Cadet"
 	supervisors = "the peacekeepers"
 	minimal_player_age = 16
 	economic_modifier = 2
@@ -479,7 +479,7 @@
 
 //CHURCH JOBS
 /datum/job/arbiter
-	title = "Mann Schütze"
+	title = "Arbiter"
 	department = "Civilian"
 	supervisors = "the Supreme Arbiter and Verina"
 	faction = "Station"
@@ -501,7 +501,7 @@
 
 //The inquisitor, aka the supreme arbiter.
 /datum/job/supreme_arbiter
-	title = "Rottenführer"
+	title = "Supreme Arbiter"
 	department = "Civilian"
 	supervisors = "our glorious God, Verina"
 	faction = "Station"
