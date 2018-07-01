@@ -48,7 +48,7 @@
 
 
 /datum/job/hop
-	title = "Senior Enlisted Advisor"
+	title = "Overseer"
 	supervisors = "the Commandant"
 	minimal_player_age = 31
 	economic_modifier = 12
@@ -79,7 +79,7 @@
 	minimal_access = list(access_lawyer, access_heads)
 
 /datum/job/rd
-	title = "Karotechia Director"
+	title = "Technomancer"
 	supervisors = ""
 	minimal_player_age = 21
 	economic_modifier = 9
@@ -106,8 +106,8 @@
 		H.add_skills(rand(25, 50), rand(25,50), rand(65, 75))
 
 /datum/job/scientist
-	title = "Karotechia"
-	supervisors = "Karotechia Director"
+	title = "Tenchotrainee"
+	supervisors = "Technomancer"
 	minimal_player_age = 19
 	economic_modifier = 8
 	ideal_character_age = 30
