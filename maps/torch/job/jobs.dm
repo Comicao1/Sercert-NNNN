@@ -72,7 +72,7 @@
 
 
 /datum/job/rd
-	title = "Karotechia Director"
+	title = "Research Director"
 	supervisors = "NanoTrasen and the Commanding Officer"
 	economic_modifier = 20
 	minimal_player_age = 14
@@ -184,7 +184,7 @@
 			            access_solgov_crew, access_gun)
 
 /datum/job/liaison
-	title = "Werchmart Liaison"
+	title = "NanoTrasen Liaison"
 	department = "Support"
 	department_flag = SPT
 	faction = "Station"
@@ -209,7 +209,7 @@
 	announced = 1
 
 /datum/job/representative
-	title = "Waffen-SS Representative"
+	title = "SolGov Representative"
 	department = "Support"
 	department_flag = SPT
 	faction = "Station"
@@ -266,7 +266,7 @@
 			            access_solgov_crew, access_gun, access_calypso, access_guppy, access_senadv, access_hangar)
 
 /datum/job/bridgeofficer
-	title = "Waffen-SS Officer"
+	title = "SolGov Officer"
 	department = "Support"
 	department_flag = SPT
 	faction = "Station"
@@ -297,7 +297,7 @@
 			            access_solgov_crew)
 
 /datum/job/solgov_pilot
-	title = "Waffen-SS Pilot"
+	title = "SolGov Pilot"
 	department = "Support"
 	department_flag = SPT
 	faction = "Station"
@@ -736,7 +736,7 @@
 
 
 /datum/job/cargo_contractor
-	title = "Liefern Assistant"
+	title = "Supply Assistant"
 	department = "Supply"
 	department_flag = SUP
 	faction = "Station"
@@ -754,7 +754,7 @@
 
 
 /datum/job/janitor
-	title = "Hygiene Technician"
+	title = "Sanitation Technician"
 	department = "Service"
 	department_flag = SRV
 	faction = "Station"
@@ -786,7 +786,7 @@
 	minimal_access = list(access_maint_tunnels, access_emergency_storage, access_janitor, access_solgov_crew)
 
 /datum/job/chef
-	title = "Koch"
+	title = "Cook"
 	department = "Service"
 	department_flag = SRV
 	total_positions = 1
@@ -829,7 +829,7 @@
 
 
 /datum/job/crew
-	title = "Mannschaftsmitglied"
+	title = "Crewman"
 	department = "Service"
 	department_flag = SRV
 	faction = "Station"
@@ -862,7 +862,7 @@
 	minimal_access = list(access_maint_tunnels, access_emergency_storage, access_solgov_crew)
 
 /datum/job/senior_scientist
-	title = "Senior Karotechia"
+	title = "Senior Researcher"
 	department = "Science"
 	department_flag = SCI
 	faction = "Station"
@@ -887,7 +887,7 @@
 						access_calypso, access_guppy, access_hangar, access_petrov, access_petrov_helm, access_guppy_helm)
 
 /datum/job/nt_pilot
-	title = "Flugzeugführer"
+	title = "NanoTrasen Pilot"
 	supervisors = "the Research Director"
 	department = "Science"
 	department_flag = SCI
@@ -911,7 +911,7 @@
 						access_hangar, access_petrov, access_petrov_helm, access_guppy_helm)
 
 /datum/job/scientist
-	title = "Karotechia"
+	title = "Scientist"
 	total_positions = 6
 	spawn_positions = 6
 	supervisors = "the Research Director"
@@ -939,7 +939,7 @@
 
 
 /datum/job/mining
-	title = "Prospektor"
+	title = "Prospector"
 	department = "Science"
 	department_flag = SCI
 	total_positions = 4
@@ -964,7 +964,7 @@
 
 
 /datum/job/guard
-	title = "Sicherheitsbeamter"
+	title = "Security Guard"
 	department = "Science"
 	department_flag = SCI
 	faction = "Station"
@@ -986,7 +986,7 @@
 
 
 /datum/job/scientist_assistant
-	title = "Karotechia Assistant"
+	title = "Research Assistant"
 	department = "Science"
 	department_flag = SCI
 	faction = "Station"
