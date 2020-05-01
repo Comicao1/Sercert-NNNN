@@ -53,7 +53,7 @@
 		return 0
 
 	facing_dir = null
-
+	playsound(src.loc, 'sound/effects/death.ogg', 50, 1)
 	if(!gibbed && deathmessage != "no message") // This is gross, but reliable. Only brains use it.
 		src.visible_message("<b>\The [src.name]</b> [deathmessage]")
 
