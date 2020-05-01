@@ -65,7 +65,7 @@
 	var/list/dispersion = list(0)
 	var/one_hand_penalty
 	var/wielded_item_state
-
+	var/candeaf = 1
 	var/next_fire_time = 0
 
 	var/sel_mode = 1 //index of the currently selected mode
@@ -398,7 +398,9 @@
 		playsound(user, shot_sound, 10, 1)
 	else
 		playsound(user, shot_sound, 50, 1)
-
+	if(!user.dex >= 10 && candeaf == 1)
+		playsound(src.loc, 'sound/effects/earing.ogg', 50, 1)
+		user.ear_deaf += 15
 //Suicide handling.
 /obj/item/weapon/gun/var/mouthshoot = 0 //To stop people from suiciding twice... >.>
 /obj/item/weapon/gun/proc/handle_suicide(mob/living/user)
