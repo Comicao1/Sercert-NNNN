@@ -149,13 +149,13 @@
 		to_chat(user, "<span class='danger'>The gun's safety is on!</span>")
 		handle_click_empty(user)
 		return 0
-	
+
 	if(!is_jammed && prob(jam_chance))
 		playsound(src.loc, 'sound/effects/jam.ogg', 50, 1)
 		src.visible_message("<span class='danger'>[user]\'s [src] jams!</span>")
 		is_jammed = 1
 		return 0
-	
+
 	if(is_jammed)
 		handle_click_empty(user)
 		return 0

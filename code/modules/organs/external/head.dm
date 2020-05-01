@@ -1,4 +1,3 @@
-
 /obj/item/organ/external/head
 	organ_tag = BP_HEAD
 	icon_name = "head"
@@ -19,10 +18,11 @@
 
 	var/can_intake_reagents = 1
 	var/eye_icon = "eyes_s"
-	var/has_lips
-	var/list/teeth_list() = list()
-	var/max_teeth = 32
 	var/eye_icon_location = 'icons/mob/human_face.dmi'
+	var/has_lips
+	var/list/teeth_list = list()
+	var/max_teeth = 32
+
 
 /obj/item/organ/external/head/get_agony_multiplier()
 	return (owner && owner.headcheck(organ_tag)) ? 1.50 : 1
